@@ -37,7 +37,7 @@
   :initialize 'custom-initialize-default
   :group 'helm-open-junk-files)
 
-(defcustom helm-open-junk-files-exclude nil
+(defcustom helm-open-junk-files-exclude (".git")
   "If Non-nil. exclude file."
   :type 'string
   :group 'helm-open-junk-files)
